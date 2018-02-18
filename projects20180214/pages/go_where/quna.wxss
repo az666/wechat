@@ -1,0 +1,39 @@
+.page__bd{
+	padding:0 10px;
+}
+.section__nav{
+	display:flex;
+	background:#0f4;
+	height:120px;
+	font-size:14rpx;
+	color:#fff;
+	margin-bottom:1px;
+}
+.left{
+	width:33.33%;
+}
+.border__right{
+	border-right:1rpx solid #fff;
+}
+.border__bottom{
+	border-bottom:1rpx solid #fff;
+}
+.right{
+	width:66.67%;
+	flex-wrap:wrap;
+}
+.left,.right{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	box-sizing:border-box;
+}
+.item{
+	width:50%;
+	height:60px;
+    display:flex;
+	justify-content:center;
+	align-items:center;
+	box-sizing:border-box;
+
+}

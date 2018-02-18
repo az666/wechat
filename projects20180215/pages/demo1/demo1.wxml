@@ -1,0 +1,8 @@
+<view class="msg">
+     {{msg}}
+</view>
+<view>
+{{time}}--{{name}}
+</view>
+判断语法
+<view wx:if="{{condition>90}}"> 90 </view>

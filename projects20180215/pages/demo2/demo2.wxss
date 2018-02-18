@@ -1,0 +1,5 @@
+.liebiao{
+	padding:10px;
+	margin-boytom:10px;
+	border-bottom:1px solid #dfdfdf;
+}

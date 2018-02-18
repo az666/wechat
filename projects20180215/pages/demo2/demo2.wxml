@@ -1,0 +1,34 @@
+<view class="liebiao" wx:key="name" wx:for="{{list}}" wx:for-item="a" >
+   {{index}}.{{a.name}}--{{a.address}}
+
+</view>
+<view wx:for="{{array}}" wx:key="*this">
+{{item}}
+</view>
+
+<view wx:if="{{flag}}">
+这是wx:if的效果
+</view>
+<view hidden="{{flag}}">
+这是hidden的效果
+</view>
+<block wx:if="true">
+<view> 这两者同时被判断 </view>
+<view> 这两者同时被判断 </view>
+</block>
+<import src="template.wxml"/>
+<template is="info" data="{{...templatetest}}" />
+<include src="include.wxml" />
+<view>
+   <button data-a="hello" data-b="hi" bindtap="test1">点我</button>
+   <view>{{msg}}</view>
+</view>
+<view bindtap="func4">
+   最外层（bindtap冒泡测试）
+       <view bindtap="func3">
+           中层（bindtap冒泡测试）
+               <view catchtap="func2">
+                   内部（catchtap阻止向上冒泡测试）
+               </view>
+       </view>        
+</view>

@@ -1,0 +1,20 @@
+.page__hd{
+	text-align:center;
+}
+.wrapper{
+	display:flex;
+    padding:0 10rpx;
+    flex-wrap:nowrap;
+
+}
+.item{
+    box-sizing:border-box;
+	height:200rpx;
+	flex:auto;
+    border:1rpx solid #dfdfdf;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+
+}

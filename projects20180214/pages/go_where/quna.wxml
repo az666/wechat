@@ -1,0 +1,39 @@
+<view class="page">
+     <view class="page__hd">
+     </view>
+     <view class="page__bd">
+          <view class="section__nav">
+                <view class="left border__right">
+                   测试
+                </view>
+                <view class="right">
+                      <view class="item border__right border__bottom">123</view>
+                      <view class="item">123</view>
+                      <view class="item border__right">123</view>
+                      <view class="item">123</view>
+                </view>
+          </view>
+          <view class="section__nav" style="background:blue;">
+                <view class="left border__right">
+                   测试
+                </view>
+                <view class="right">
+                      <view class="item border__right border__bottom">123</view>
+                      <view class="item">123</view>
+                      <view class="item border__right">123</view>
+                      <view class="item">123</view>
+                </view>
+          </view>
+          <view class="section__nav">
+                <view class="left border__right">
+                   测试
+                </view>
+                <view class="right">
+                      <view class="item border__right border__bottom">123</view>
+                      <view class="item">123</view>
+                      <view class="item border__right">123</view>
+                      <view class="item">123</view>
+                </view>
+          </view>
+     </view>
+</view>

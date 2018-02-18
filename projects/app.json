@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的第一个小程序",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"blue",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "backgroundColor":"#dfdfdf",
+    "selectedColor":"blue",
+     "list":[
+      {
+          "text":"测试",
+          "pagePath":"pages/test/test"
+      },
+      {
+          "text":"home",
+          "pagePath":"pages/index/index"
+      },
+      {
+          "text":"logs",
+          "pagePath":"pages/logs/logs"
+      }
+
+     ]
+  },
+  "debug":true
+}

@@ -1,0 +1,11 @@
+<template name="info">
+<view>
+<text>{{name}}</text>
+</view>
+<view>
+<text>{{address}}</text>
+</view>
+<view>
+template（可以解析数据）
+</view>
+</template>
