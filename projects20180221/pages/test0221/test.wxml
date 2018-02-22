@@ -1,0 +1,29 @@
+<view class="page">
+<picker bindchange="change" value="{{index}}" range="{{arrayOject}}">
+    <view>
+    {{arrayOject[index]}}
+    </view>
+</picker>
+<view class="switch">
+    测试<switch checket bindchange="sw_change"/>
+</view>
+<view wx:for="{{icons}}">
+      <icon type="{{item.type}}" size="{{item.size}}" />
+</view>
+<button >
+<icon type="download" size="35" />
+</button>
+<button bindtap="tiaozhuan">
+跳转页面
+</button>
+</view>
+<view>
+   <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+</view>
+<view>
+    <video src="{{video_src}}" controls enable-danmu danmu-list="{{danmulist}}">
+    </video>
+</view>
+<button bindtap="tz_map">
+map
+</button>

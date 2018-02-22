@@ -1,7 +1,0 @@
-<view class="mod-test">
-{{name}}
-{{username}}
-    <view wx:for="{{list}}" class="item">
-        {{item.title}}
-    </view>
-</view>

@@ -1,0 +1,21 @@
+<view class="header">
+轮播图测试
+</view>
+<view class="page center">
+    <swiper indicator-dots="{{indicatorDots}}" indicator-color="rgba(0, 0, 0, .3)"
+    indicator-active-color="#F16F4A"
+    autoplay="{{true}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{image}}">
+    <swiper-item>
+           <image src="{{item}}"  height="130"/>
+    </swiper-item>
+      </block>
+    </swiper>
+</view>
+<span style="font-size:24px;"> 
+<view class="container">  
+<view class="header">post天气api发包测试成功 </view>
+    <view style="color:{{red}}">{{city_name}}</view>  
+    <view>{{date}} {{info}}</view>
+</view></span> 
+<button bindtap="tz_0221">跳转</button>

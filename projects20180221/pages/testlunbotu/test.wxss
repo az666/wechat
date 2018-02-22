@@ -1,0 +1,8 @@
+image{
+	width:730rpx;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

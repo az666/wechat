@@ -1,0 +1,10 @@
+.switch{
+	background:#dfdfdf;
+	padding:10px;
+}
+switch{
+	float:right;
+}
+video{
+	width:750rpx;
+}

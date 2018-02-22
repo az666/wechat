@@ -1,9 +1,0 @@
-.mod-test{
-	text-align:center;
-
-}
-.mod-test .item{
-	text-align:left;
-	padding:5px;
-	border:1px solid #dfdfdf;
-}

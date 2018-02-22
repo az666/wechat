@@ -33,7 +33,7 @@ Page({
          wx.showToast({           
             icon:'success',
             duration:2000
-         })
+         }),
         that.setData({   
           red:'red',
           city_name: res.data.result.data.realtime.city_name,  
